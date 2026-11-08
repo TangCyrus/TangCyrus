@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="120" viewBox="0 0 1280 120" role="img" aria-labelledby="title desc"><title id="title">Stay curious. Keep building.</title><desc id="desc">Slowly drifting purple and cyan waves.</desc><style>
+@keyframes enter { from { opacity:0; transform:translateY(7px) } to { opacity:1; transform:translateY(0) } }
+.intro { animation:enter 1.2s ease-out both }
+.static-copy { display:none }
+@media (prefers-reduced-motion: reduce) { .intro { animation:none } .motion { display:none } .static-copy { display:inline } }
+</style><defs><linearGradient id="wave"><stop stop-color="#9272f6"/><stop offset="1" stop-color="#5de0d1"/></linearGradient></defs>
+<path d="M0 45Q160 5 320 45T640 45T960 45T1280 45T1600 45T1920 45T2240 45V120H0Z" fill="url(#wave)" opacity=".09"/>
+<g class="motion"><path d="M0 45Q160 5 320 45T640 45T960 45T1280 45T1600 45T1920 45T2240 45V120H0Z" fill="url(#wave)" opacity=".22"><animateTransform attributeName="transform" type="translate" values="0 0;-640 0" dur="14s" repeatCount="indefinite"/></path></g>
+<text x="640" y="98" text-anchor="middle" font-family="ui-monospace, Menlo, monospace" font-size="15" fill="#9ca8c3" letter-spacing="2">STAY CURIOUS. KEEP BUILDING.</text></svg>

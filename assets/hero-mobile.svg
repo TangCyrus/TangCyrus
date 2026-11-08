@@ -1,7 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="720" height="560" viewBox="0 0 720 560" role="img" aria-labelledby="title desc">
 <title id="title">TangCyrus — personal lab</title><desc id="desc">Mobile banner: Web development, AI tools and everyday systems.</desc>
 
-<defs>
+<style>
+@keyframes enter { from { opacity:0; transform:translateY(7px) } to { opacity:1; transform:translateY(0) } }
+.intro { animation:enter 1.2s ease-out both }
+.static-copy { display:none }
+@media (prefers-reduced-motion: reduce) { .intro { animation:none } .motion { display:none } .static-copy { display:inline } }
+</style><defs>
  <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#111528"/><stop offset="1" stop-color="#080d19"/></linearGradient>
  <linearGradient id="titleFill" x2="1" y2=".4"><stop stop-color="#fff"/><stop offset=".55" stop-color="#e7deff"/><stop offset="1" stop-color="#bcb2ff"/></linearGradient>
  <linearGradient id="accent"><stop stop-color="#9a7bff"/><stop offset="1" stop-color="#64ebdf"/></linearGradient>
@@ -13,7 +18,7 @@
 <rect x="1" y="1" width="718" height="558" rx="22" fill="url(#bg)" stroke="#2a3048"/>
 <rect x="2" y="2" width="716" height="556" rx="21" fill="url(#grid)"/>
 <ellipse cx="574" cy="401" rx="230" ry="210" fill="url(#nebula)"/>
-<g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif">
+<g class="intro" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif">
  <text x="42" y="71" fill="#b6a6fa" font-size="19" letter-spacing="3">THE PERSONAL LAB OF</text>
  <text x="36" y="181" fill="url(#titleFill)" font-size="90" font-weight="750" letter-spacing="-4">TangCyrus<tspan fill="#68e4d7">.</tspan></text>
  <text x="42" y="244" fill="#d1d7e9" font-size="30" font-weight="500">Building useful things,</text>
@@ -25,6 +30,11 @@
  <text x="42" y="521" fill="#a6b1c9" font-size="19" letter-spacing="2">EXPLORE. BUILD. REFINE.</text>
 </g>
 <g transform="translate(563 387) scale(.62)">
+<g class="motion">
+ <circle r="5" fill="#d6c5ff"><animateMotion dur="12s" repeatCount="indefinite" path="M151 -99A181 62 -33 1 0 -151 99A181 62 -33 1 0 151 -99Z"/></circle>
+ <circle r="3.7" fill="#78f0df"><animateMotion dur="17s" repeatCount="indefinite" path="M124 101A160 79 39 1 1 -124 -101A160 79 39 1 1 124 101Z"/></circle>
+ <circle r="101" fill="none" stroke="#b29aff" stroke-opacity=".35" stroke-dasharray="8 28" stroke-width="1.5"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="35s" repeatCount="indefinite"/></circle>
+</g>
  <circle r="139" fill="none" stroke="#62618c" stroke-opacity=".2" stroke-dasharray="2 9"/>
  <circle r="101" fill="none" stroke="#afa2ee" stroke-opacity=".16"/>
  <ellipse rx="181" ry="62" fill="none" stroke="#69569e" stroke-opacity=".6" transform="rotate(-33)"/>

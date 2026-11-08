@@ -4,6 +4,10 @@
 </p>
 
 <p align="center">
+  <picture><source media="(max-width: 600px)" srcset="./assets/typing-mobile.svg" /><img src="./assets/typing.svg" width="100%" alt="循环打字：Building useful tools. Exploring AI and the web. Turning ideas into projects." /></picture>
+</p>
+
+<p align="center">
   <a href="https://x.com/CyrusTangcyrus"><img src="./assets/x.svg" width="238" height="40" alt="在 X 上关注 @CyrusTangcyrus" /></a>
 </p>
 
@@ -42,4 +46,4 @@
 
 ---
 
-<p align="center"><sub>Curiosity → Code → Something useful.</sub></p>
+<p align="center"><img src="./assets/footer.svg" width="100%" alt="Stay curious. Keep building. 紫青色流动波浪。" /></p>

@@ -1,7 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1280" height="440" viewBox="0 0 1280 440" role="img" aria-labelledby="title desc">
 <title id="title">TangCyrus — personal lab</title><desc id="desc">Building useful things, one idea at a time. Web development, AI tools and everyday systems. Purple and cyan orbital artwork with a TC monogram.</desc>
 
-<defs>
+<style>
+@keyframes enter { from { opacity:0; transform:translateY(7px) } to { opacity:1; transform:translateY(0) } }
+.intro { animation:enter 1.2s ease-out both }
+.static-copy { display:none }
+@media (prefers-reduced-motion: reduce) { .intro { animation:none } .motion { display:none } .static-copy { display:inline } }
+</style><defs>
  <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#111528"/><stop offset="1" stop-color="#080d19"/></linearGradient>
  <linearGradient id="titleFill" x2="1" y2=".4"><stop stop-color="#fff"/><stop offset=".55" stop-color="#e7deff"/><stop offset="1" stop-color="#bcb2ff"/></linearGradient>
  <linearGradient id="accent"><stop stop-color="#9a7bff"/><stop offset="1" stop-color="#64ebdf"/></linearGradient>
@@ -15,7 +20,7 @@
 <ellipse cx="1008" cy="212" rx="310" ry="270" fill="url(#nebula)"/>
 <circle cx="753" cy="74" r="2" fill="#9aabcf" opacity="0.5"/><circle cx="1180" cy="97" r="2" fill="#9aabcf" opacity="0.5"/><circle cx="1236" cy="297" r="1.6" fill="#9aabcf" opacity="0.6"/><circle cx="822" cy="345" r="2" fill="#9aabcf" opacity="0.5"/><circle cx="1124" cy="369" r="2" fill="#9aabcf" opacity="0.4"/><circle cx="729" cy="218" r="1.5" fill="#9aabcf" opacity="0.5"/><circle cx="1213" cy="176" r="1.5" fill="#9aabcf" opacity="0.5"/><circle cx="892" cy="53" r="1.5" fill="#9aabcf" opacity="0.5"/>
 <path d="M42 60V42H60 M1220 42H1238V60 M42 380V398H60 M1220 398H1238V380" fill="none" stroke="#616386" stroke-width="1.5"/>
-<g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif">
+<g class="intro" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif">
  <text x="76" y="88" fill="#b6a6fa" font-size="14" letter-spacing="4">THE PERSONAL LAB OF</text>
  <text x="70" y="207" fill="url(#titleFill)" font-size="96" font-weight="750" letter-spacing="-5">TangCyrus<tspan fill="#68e4d7">.</tspan></text>
  <text x="76" y="253" fill="#d1d7e9" font-size="23" font-weight="500">Building useful things, one idea at a time.</text>
@@ -24,6 +29,11 @@
  <text x="76" y="368" fill="#a6b1c9" font-size="12" letter-spacing="2.5">EXPLORE. BUILD. REFINE.</text>
 </g>
 <g transform="translate(1010 211)">
+<g class="motion">
+ <circle r="5" fill="#d6c5ff"><animateMotion dur="12s" repeatCount="indefinite" path="M151 -99A181 62 -33 1 0 -151 99A181 62 -33 1 0 151 -99Z"/></circle>
+ <circle r="3.7" fill="#78f0df"><animateMotion dur="17s" repeatCount="indefinite" path="M124 101A160 79 39 1 1 -124 -101A160 79 39 1 1 124 101Z"/></circle>
+ <circle r="101" fill="none" stroke="#b29aff" stroke-opacity=".35" stroke-dasharray="8 28" stroke-width="1.5"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="35s" repeatCount="indefinite"/></circle>
+</g>
  <circle r="139" fill="none" stroke="#62618c" stroke-opacity=".2" stroke-dasharray="2 9"/>
  <circle r="101" fill="none" stroke="#afa2ee" stroke-opacity=".16"/>
  <ellipse rx="181" ry="62" fill="none" stroke="#69569e" stroke-opacity=".6" transform="rotate(-33)"/>
