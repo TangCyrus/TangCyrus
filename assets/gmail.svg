@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="358" height="48" viewBox="0 0 358 48" role="img" aria-labelledby="title desc">
+<title id="title">Gmail — jinyangtang33@gmail.com</title>
+<desc id="desc">Email Cyrus at jinyangtang33@gmail.com.</desc>
+<rect x="1" y="1" width="356" height="46" rx="9" fill="#151b2b" stroke="#3c4560"/>
+<rect x="17" y="15" width="26" height="19" rx="3" fill="none" stroke="#83e7db" stroke-width="1.6"/>
+<path d="M18 17L30 26L42 17" fill="none" stroke="#e4d9ff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M55 12V36" stroke="#3c4560"/>
+<text x="68" y="29" fill="#e4d9ff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="600">jinyangtang33@gmail.com</text>
+<path d="M323 29L333 19 M324 19H333V28" stroke="#83e7db" stroke-width="1.5" fill="none"/>
+</svg>

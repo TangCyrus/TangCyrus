@@ -9,6 +9,7 @@
 
 <p align="center">
   <a href="https://x.com/CyrusTangcyrus"><img src="./assets/x.svg" width="238" height="40" alt="在 X 上关注 @CyrusTangcyrus" /></a>
+  <a href="mailto:jinyangtang33@gmail.com"><img src="./assets/gmail.svg" width="298" height="40" alt="Gmail：jinyangtang33@gmail.com，点击发送邮件" /></a>
 </p>
 
 <p align="center">
@@ -55,7 +56,7 @@
 
 ## Connect / 保持联系
 
-在 [X · @CyrusTangcyrus](https://x.com/CyrusTangcyrus) 找到我，也欢迎通过上面的项目仓库交流问题与想法。
+在 [X · @CyrusTangcyrus](https://x.com/CyrusTangcyrus) 找到我，或通过 [Gmail · jinyangtang33@gmail.com](mailto:jinyangtang33@gmail.com) 联系我。也欢迎通过上面的项目仓库交流问题与想法。
 
 ---
 
