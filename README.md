@@ -40,6 +40,19 @@
   </tr>
 </table>
 
+
+## Activity / 代码足迹
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/contributions-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/contributions-light.svg" />
+    <img src="./assets/contributions-light.svg" width="100%" alt="根据 TangCyrus 的真实 GitHub 贡献生成的贪吃蛇动画，每日自动更新。" />
+  </picture>
+</p>
+
+<p align="center"><sub>每一格都是一次积累 · 由公开贡献数据生成，每日自动更新</sub></p>
+
 ## Connect / 保持联系
 
 在 [X · @CyrusTangcyrus](https://x.com/CyrusTangcyrus) 找到我，也欢迎通过上面的项目仓库交流问题与想法。
